@@ -67,7 +67,7 @@ Here are the classification metrics for our baseline Random Forest model:
 | Macro Avg | 0.95      | 0.91   | 0.93     | 98805   |
 | Weighted Avg | 1.00   | 1.00   | 1.00     | 98805   |
 
-> *F1 Score (average weighted) 99.9752%*
+> ***F1 Score (average weighted) 99.9752%***
 
 ### After SMOTE
 Following the application of SMOTE to address class imbalance, here are the updated metrics:
@@ -84,9 +84,9 @@ Following the application of SMOTE to address class imbalance, here are the upda
 | Macro Avg |   1.00   |  0.99  |   1.00   |  98994  |
 | Weighted Avg | 1.00 |  1.00  |   1.00   |  98994  |
 
-> *F1 Score (average weighted) 99.9827%*
+> ***F1 Score (average weighted) 99.9827%***
 
 
 ### Confusion Matrix (Final Model)
 
-<img src="figures/screenshots/confusion_final.png" alt="Confusion Matrix" width="500" height="500">
+<img src="figures/screenshots/confusion_final.png" alt="Confusion Matrix" width="550" height="550">
