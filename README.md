@@ -52,13 +52,13 @@ Here are the classification metrics for our baseline Random Forest model:
 | normal | 1.00      | 1.00   | 1.00     | 19456   |
 | probe  | 1.00      | 1.00   | 1.00     | 822     |
 | r2l    | 1.00      | 0.96   | 0.98     | 225     |
-| <span style="font-weight:bold; color:#b4656f">u2r</span> | <span style="font-weight:bold; color:#b4656f">0.75</span> | <span style="font-weight:bold; color:#b4656f">0.60</span> | <span style="font-weight:bold; color:#b4656f">0.67</span> | <span style="font-weight:bold; color:#b4656f">10</span> |
+| **u2r** | **0.75** | **0.60** | **0.67** | **10** |
 |        |           |        |          |         |
 | Accuracy |       |    | 1.00     | 98805   |
 | Macro Avg | 0.95      | 0.91   | 0.93     | 98805   |
 | Weighted Avg | 1.00   | 1.00   | 1.00     | 98805   |
 
->F1 Score (average weighted) 99.9752%
+> *F1 Score (average weighted) 99.9752%*
 
 ### After SMOTE
 Following the application of SMOTE to address class imbalance, here are the updated metrics:
@@ -69,140 +69,11 @@ Following the application of SMOTE to address class imbalance, here are the upda
 | normal |    1.00   |  1.00  |   1.00   |  19456  |
 | probe  |    1.00   |  0.99  |   1.00   |    821  |
 |  r2l   |    1.00   |  0.98  |   0.99   |    225  |
-| <span style="font-weight:bold; color:#849483">u2r</span> | <span style="font-weight:bold; color:#849483">0.99</span> | <span style="font-weight:bold; color:#849483">1.00</span> | <span style="font-weight:bold; color:#849483">1.00</span> | <span style="font-weight:bold; color:#849483">200</span> |
+| **u2r** | **0.99** | **1.00** | **1.00** | **200** |
 |        |           |        |          |         |
 | Accuracy |           |        |   1.00   |  98994  |
 | Macro Avg |   1.00   |  0.99  |   1.00   |  98994  |
 | Weighted Avg | 1.00 |  1.00  |   1.00   |  98994  |
 
-> F1 Score (average weighted) 99.9827%
+> *F1 Score (average weighted) 99.9827%*
 
-
----
-
-<div style="display:flex;">
-    <div style="flex:1; margin-right:10px;">
-        <table>
-            <tr>
-                <th>Class</th>
-                <th>Precision</th>
-                <th>Recall</th>
-                <th>F1-Score</th>
-                <th>Support</th>
-            </tr>
-            <tr>
-                <td>dos</td>
-                <td>1.00</td>
-                <td>1.00</td>
-                <td>1.00</td>
-                <td>78292</td>
-            </tr>
-            <tr>
-                <td>normal</td>
-                <td>1.00</td>
-                <td>1.00</td>
-                <td>1.00</td>
-                <td>19456</td>
-            </tr>
-            <tr>
-                <td>probe</td>
-                <td>1.00</td>
-                <td>1.00</td>
-                <td>1.00</td>
-                <td>822</td>
-            </tr>
-            <tr>
-                <td>r2l</td>
-                <td>1.00</td>
-                <td>0.96</td>
-                <td>0.98</td>
-                <td>225</td>
-            </tr>
-            <tr>
-                <td><span style="font-weight:bold; color:#b4656f">u2r</span></td>
-                <td><span style="font-weight:bold; color:#b4656f">0.75</span></td>
-                <td><span style="font-weight:bold; color:#b4656f">0.60</span></td>
-                <td><span style="font-weight:bold; color:#b4656f">0.67</span></td>
-                <td><span style="font-weight:bold; color:#b4656f">10</span></td>
-            </tr>
-            <tr>
-                <td colspan="4">Accuracy</td>
-                <td>1.00</td>
-            </tr>
-            <tr>
-                <td colspan="2">Macro Avg</td>
-                <td>0.95</td>
-                <td>0.91</td>
-                <td>0.93</td>
-            </tr>
-            <tr>
-                <td colspan="2">Weighted Avg</td>
-                <td>1.00</td>
-                <td>1.00</td>
-                <td>1.00</td>
-            </tr>
-        </table>
-    </div>
-    <div style="flex:1; margin-left:10px;">
-        <table>
-            <tr>
-                <th>Class</th>
-                <th>Precision</th>
-                <th>Recall</th>
-                <th>F1-Score</th>
-                <th>Support</th>
-            </tr>
-            <tr>
-                <td>dos</td>
-                <td>1.00</td>
-                <td>1.00</td>
-                <td>1.00</td>
-                <td>78292</td>
-            </tr>
-            <tr>
-                <td>normal</td>
-                <td>1.00</td>
-                <td>1.00</td>
-                <td>1.00</td>
-                <td>19456</td>
-            </tr>
-            <tr>
-                <td>probe</td>
-                <td>1.00</td>
-                <td>0.99</td>
-                <td>1.00</td>
-                <td>821</td>
-            </tr>
-            <tr>
-                <td>r2l</td>
-                <td>1.00</td>
-                <td>0.98</td>
-                <td>0.99</td>
-                <td>225</td>
-            </tr>
-            <tr>
-                <td><span style="font-weight:bold; color:#849483">u2r</span></td>
-                <td><span style="font-weight:bold; color:#849483">0.99</span></td>
-                <td><span style="font-weight:bold; color:#849483">1.00</span></td>
-                <td><span style="font-weight:bold; color:#849483">1.00</span></td>
-                <td><span style="font-weight:bold; color:#849483">200</span></td>
-            </tr>
-            <tr>
-                <td colspan="4">Accuracy</td>
-                <td>1.00</td>
-            </tr>
-            <tr>
-                <td colspan="2">Macro Avg</td>
-                <td>1.00</td>
-                <td>0.99</td>
-                <td>1.00</td>
-            </tr>
-            <tr>
-                <td colspan="2">Weighted Avg</td>
-                <td>1.00</td>
-                <td>1.00</td>
-                <td>1.00</td>
-            </tr>
-        </table>
-    </div>
-</div>
