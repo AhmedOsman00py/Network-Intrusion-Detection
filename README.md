@@ -79,3 +79,35 @@ Following the application of SMOTE to address class imbalance, here are the upda
 
 
 ---
+
+<div style="display:inline-block; width:50%; vertical-align:top;">
+
+| Class  | Precision | Recall | F1-Score | Support |
+|--------|-----------|--------|----------|---------|
+| dos    | 1.00      | 1.00   | 1.00     | 78292   |
+| normal | 1.00      | 1.00   | 1.00     | 19456   |
+| probe  | 1.00      | 1.00   | 1.00     | 822     |
+| r2l    | 1.00      | 0.96   | 0.98     | 225     |
+| u2r    | 0.75      | 0.60   | 0.67     | 10      |
+|--------|-----------|--------|----------|---------|
+| Accuracy           |         |         | 1.00    | 98805   |
+| Macro Avg | 0.95      | 0.91   | 0.93     | 98805   |
+| Weighted Avg | 1.00   | 1.00   | 1.00     | 98805   |
+
+</div>
+
+<div style="display:inline-block; width:50%; vertical-align:right;">
+
+| Class  | Precision | Recall | F1-Score | Support |
+|--------|-----------|--------|----------|---------|
+| dos    | 1.00      | 1.00   | 1.00     | 78292   |
+| normal | 1.00      | 1.00   | 1.00     | 19456   |
+| probe  | 1.00      | 0.99   | 1.00     | 821     |
+| r2l    | 1.00      | 0.98   | 0.99     | 225     |
+| u2r    | 0.99      | 1.00   | 1.00     | 200     |
+|--------|-----------|--------|----------|---------|
+| Accuracy           |         |         | 1.00    | 98994   |
+| Macro Avg | 1.00      | 0.99   | 1.00     | 98994   |
+| Weighted Avg | 1.00   | 1.00   | 1.00     | 98994   |
+
+</div>
